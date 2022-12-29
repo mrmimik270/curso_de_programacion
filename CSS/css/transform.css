@@ -1,0 +1,26 @@
+.caja {
+    background: #ffaa5a;
+    width: 200px;
+    height: 200px;
+    /*transform: translate(200px, 0px);/*el primer valor del parentesis es el traslado en horizontal y el segundo en vertical*/
+    /*transform: scale(10,10 );*//*el valor del parentesis es para el tamaño el primero es arriba el segundo es abajo
+    y los demas no se*/
+    /*transform: rotate(10deg);*//*el valor del parentesis es los grados de rotacion. Tenemos que poner el nuemero y despues un deg*/
+   /* transform: skew(20deg, 0deg );*//*skew nos sirve para deformar. Es algo que todavia no puedo comprender*/
+ transform: translate(200px) scale(1.5, 1.5) rotate(10deg);/*esto es para poner todos los elementos*/
+}
+/*tambien està translateX que es para movernos especificamente en el eje X y translate Y que es para lo mismo solo
+que para el eje Y (solo se pone un valor entre los parentesis si se usa uno de estos porque sino no se puede poner 
+uno solo)*/
+/*
+	Cosas que podemos hacer con transform:
+	- Trasladar elementos 
+	- Escalar Elementos
+	- Rotar Elementos
+	- Sesgar Elementos
+	*/
+
+    /* el estilo transform sirve para muchas cosas. Uno de sus valores es translate que nos sire para trasladar elementos
+    (no para posisionarlo sino mas que todo para animaciones). Otro es scale que nos permite agrandar elementos(proba
+    blemente este tambien sea mas que todo para animaciones). Otro es rotate que nos sirve para rotar elementos(igual es para animaciones
+    sobre todo)*/

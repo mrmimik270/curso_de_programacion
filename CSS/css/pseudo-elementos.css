@@ -1,0 +1,50 @@
+/*Los pseudo elementos son muy parecidos a las pseudo-clases solo que sirven
+ para unas cosas un tanto distintas y se coloca :: en vez de : . Vamos a ver algunos*/
+
+/*Seleccionar primera linea*/
+p::first-letter {
+    font-size: 40px;
+    font-weight: bold;
+}
+/*firs-line sirve para lo mismo que en las pseudo-clases*/
+p::first-line {
+    background: #cf5c36;
+    line-height: 40px;
+}
+/*::selection sirve para hacer que cuando se seleccione elejir el color
+(El color predeterminado es azul)*/
+*::selection {
+background: #f9a03f;
+color: #fff ;
+}
+
+.caja {
+    background: #f9a03f; 
+    height: 150px;
+    width:150px ;
+}
+/*las propiedades ::before y ::after sirven para poner antes o despues de una caja
+un elemento(no lo entiendooooo , bueno en realidad sirve para cosas interesantes
+ como crear un cuadrado sin codigo html) y se le puede poner contenido */
+.caja::before {
+content:'Contenido antes de la caja' ;
+display: block;
+background: #3a3a3a;
+color: 50px;
+color: #fff;
+position: relative;
+left: 50px;
+}
+.caja::after {
+content: ' contenido despues da la caja'/*Si o si hay que poner content para que funcione el resto de cosas*/;
+width:50px ;
+height: 50px;
+display: block;
+position: relative;
+background:#000;
+left: 500px ;
+color: #3a3a3a;
+}
+
+/*Los pseudo elementos before y 
+after se usan mucho aunque es para cosas mas avanzadas*/

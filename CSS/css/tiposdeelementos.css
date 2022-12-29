@@ -1,0 +1,41 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+
+background: #f2f2f2;
+}
+h1, p, div {
+background: #ccc;
+display: inline-block;
+}
+a {
+    color: #fff;
+    background: #000;
+    display: inline;
+    
+}
+/*
+
+Existen 2 tipos de elementos, los que bloque (block) y los en linea (inline).
+Los block tienen por defecto un ancho del 100% y ademas no pueden tener (por defecto) otro elemento a un lado.
+
+Y los inline tienen el ancho que solo necesitan y (por defecto) los elementos automaticamente se ponen al lado del otro.
+ademas los inline no pueden tener un ancho , alto o padding y los block si pueden.
+
+*/
+
+/* Algunos elementos "inline"
+    a, span, img, b, i, small, cite, code,
+    em, strong, br, script, button, 
+    input, label, select, textarea.
+*/
+
+/* Algunos elementos "block"
+	div, article, section, header
+	footer, aside, table, p, video,
+	ul, ol, h1, h2, h3, h4, h5, h6
+*/
+/*El estilo display permite cambiar el tipo de elemento estan:
+block       que es para el bloque
+inline       que es para el en linea
+inline-block    que es para que se pueda colocar width height padding ect... pero que igual se puedan poner uno al lado del otro
+*/

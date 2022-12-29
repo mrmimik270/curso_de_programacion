@@ -1,0 +1,20 @@
+/*No es recomendable poner sombra al texto porque puede que la pagina se vea 
+mal a menosque se tenga un buen diseño*/
+
+.texto {
+    /*text-shadow: 0px 0px 0px #000*/
+
+    color:#fff;
+    text-shadow:2px 0 10px blue;
+}
+/*text-shadow es una propiedad que sirve para poner sombra a texto
+. El primer valor es para la sombra hacia la derecha el segundo para abajo y 
+el tercero para su difuminado*/
+
+.caja {
+    width: 200px;
+    height: 200px;
+    background: #f79256;
+    box-shadow:0 5px 3px rgba(0,0,0,0.5);
+    /*box-shadow es lo mismo que text-shadow solo que para las cajas*/
+}

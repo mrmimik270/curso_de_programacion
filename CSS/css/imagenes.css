@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #000500;
+}
+
+.galeria{
+    width: 100%;
+}
+.galeria img {
+    vertical-align:top;
+    width: 400px;
+    margin: 20px;
+    opacity: 0.5;
+    padding: 5px;
+    border: 1px solid #484848;
+}
+/*vertical-align sirve para quitar el espaciado entre las imagenes de arriba y abajo
+pero no de los lados porqeu ese espaciado entre imagenes(No los bordes de la pagina)
+es un poco mas dificil de quitar*/
+/* border sirve para hacer un borde , si se coloca solid sera una linea solida y si se
+ coloca junto con un padding se hace un espaciado entre el objeto y el borde */
+/* opacity sirve para cambiar la opacidad del objeto y su valor puede ser del 0 al 1
+obiamente que con decimales */
+
+.galeria img:hover {
+    border: 1px solid #fff;
+    opacity: 1;
+}

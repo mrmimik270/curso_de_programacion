@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>formularios</title>
+</head>
+<body>
+    <form action="" method="">
+    <label for="tu nombre">Tu nombre</label>
+    <input id="tu nombre" type="text" placeholder="nombre" maxlength="15"  size="50" required name="nombre">
+    <!--los atributos del form no se van a ver aquí , el maxlenght sirve 
+        para permitir cuantas letras va a poder escribir el usuario allí ,el size para cambiar el largo
+    pero no es reccomendable porue la forma correcta es hacerlo con CSS y el required para
+     obligar al usuario a escribir algo, name se va a ver despues, readonly para que no se pueda editar, 
+     disabled para que no este activado-->
+     <br>
+     <label for="email">gmail</label>
+     <input id="email" type="email" placeholder="correo" name="correo">
+     <br>
+     <input type="submit" value="enviar">
+     <textarea name="mensaje" id="mensaje" placeholder="mensaje"></textarea>
+     <label for="pais">país</label>
+     <select name="pais" id="pais">
+         <option value="venezuela">Venezuela</option>
+         <option value="colombia">colombia</option>
+         <option value="peru">Perú</option>
+         <option value="argentina">Argentina</option>
+     </select>
+     
+     <input type="radio" name="genero" id="hombre"><label for="hombre">hombre</label>
+     <input type="radio" name="genero" id="mujer"><label for="mujer">mujer</label>
+     <br/>
+     <p>Que tipo de pago desea(si elije las dos sera la mitad de cada una)?</p>
+    <input type="checkbox" name="terminos" id="terminos1"><label for="terminos1">pagar dos cuotas de la mitad del precio total cada una</label>
+    <input type="checkbox" name="terminos" id="terminos2"><label for="terminos2">pagar una cuota cada mez de $2000</label>
+    
+    </form>
+</body>
+</html>

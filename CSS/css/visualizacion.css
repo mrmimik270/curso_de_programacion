@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+/* div, a {
+  background: #ccc; */
+
+a {
+  /*display: none;*/
+  /*visibility: hidden;*/
+  background: #246eb9;
+  color: #fff;
+  padding: 20px;
+  display: inline-block;
+}
+/*Hay varias formas de ocultar elementos. Una de ellas es display:none  que los elimina de la vista totalmente en la pagina,
+ otra es visibility: hidden  que los hace invisibles*/
+/*display [inline | block | none | inline-block | flex ]*/
+
+.caja {
+
+  color: #fff;
+  background: #4fb560;
+  margin: 20px 20px;
+  width: 200px;
+  height: 200px;
+  overflow: auto ;
+  
+}
+/*Cuando a una caja le ponemos un alto espesifico aveces sucede que el 
+contenido se sale podemos usar la propiedad overflow: hidden para  que
+ el contenido que esta afuera se haga invisible */
+ /*y si queremos que se vea todo el contenido de la caja pero que el contenedor 
+ siga teniendo el mismo tamaño poedemos usar overflow: auto para que nos añada
+ un sccrool para ver todo el contenido*/
+ .contenedor {
+   width: 600px;
+   background: #ccc;
+   margin: 20px 0;
+   overflow: hidden;
+ }
+ .izquierda {float: left;}
+ .derecha {float:right}
+
+ .contenedor2 .caja {
+   width: 150px;
+   height: 150px;
+   position: relative;
+ }
+ 
+
+ .azul{
+   background: #009ddc ;
+   z-index:2;
+  }
+ .gris{
+   background: #32021f;
+   left:50px;
+  bottom: 80px;
+  z-index: 1;
+}
+/*el z-index sirve para elegir que caja va encima de la otra dependiendo de que valor tenga.
+ Por ejemplo: si caja tiene un z-index = 1 y si cajo tiene un z-index = 2 cajo va a estar adelante porque tiene en el z-index un valor mayor al de caja*/

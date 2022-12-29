@@ -1,0 +1,52 @@
+div {
+    background: #226fc1;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    display: inline-block;
+}
+/*El estilo border sirve para poner bordes 
+.El primer valor es el grosor del borde el segundo es el
+ tipo de borde y el tercero el color*/
+.caja1{
+border: 7px solid #000 ;
+border-radius: 20px;
+}
+
+.caja2{
+border: 7px dotted #000 ;
+border-radius: 0px 10px 30px 50px;
+}
+
+
+.caja3{
+    border: 7px dashed #000;
+    border-radius: 0px 10px 0 10px;
+}
+/*Los de abajo casi nunca se usan*/
+
+.caja4{
+    border: 7px double #000;
+    border-radius: 100%/*solo para cajas cuadradas*/;
+}
+
+.caja5 {
+    border: 7px groove #000;
+
+}
+
+.caja6 {
+    border: 7px ridge #000;
+}
+
+.caja7 {
+    border: 7px inset #000;
+}
+
+.caja8 {
+    border: 7px outset #000;
+}
+/*border-radius sirve para darle un borde cicular 
+a las cajas el maximo es 50% que es un circulo entero(mas de hay sigue ciendo un circulo entero)
+. Si se le pone mas de un valor, el primero será arriba a la izquierda el segundo arriba a
+la derecha, el tercero abajo a la derecha y el cuarto */

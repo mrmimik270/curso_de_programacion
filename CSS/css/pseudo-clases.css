@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    background: #4357ad;
+    padding: 20px 30px;
+    display: inline-block;
+    font-size: 20px;
+    color: #fff;
+}
+/*Las pseudo clases nos sirven para diversas cosas y se colocar colocando el
+objeto que quieres cambiar , dos puntos(:) y la pseudoclases. Vamos a ver algunas*/
+
+/*PROPIEDADES ENLACES*/
+
+/* Estado del objeto mientras se pasa el mouse por el */
+a:hover {
+    background:#009ddc ;
+    padding: 25px 35px;
+}
+/* Estado del objeto mientras esta ciendo presionado*/
+a:active {
+    background: #000;
+}
+/* objeto visitado */
+a:visited {
+ /* background: #ccc;*/
+}
+
+div {
+    width: 500px;
+}
+/*La pseudo-clase:hover se puede poner en otros elementos como un parrafo*/
+div p:hover {
+    background: #000;
+    color: #fff;
+}
+/*PROPIEDADES PARRAFOS/*
+/*La pseudo-clase:hover sirve para darle estilos a la primera linea de un parrafo*/
+div p:first-line {
+    background: #3a3a3a;
+    color:#fff ;
+    font-size: 20px; 
+}
+/*La pseudo-clase :nth-child() sirve para por 
+ejemplo seleccionar el segundo(o cualquier) parrafo de un div o el tercer(cualquier) enlace
+dentro de un article, ect...*/
+div p:nth-child(2) {
+     background: #009ddc;
+     color:#fff;
+     padding: 10px;
+}
+/*Nota: con jquery se puede hacer pero es un poco mas dificil(no se que es jquery )*/

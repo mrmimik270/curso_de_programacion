@@ -1,0 +1,31 @@
+body {
+font-family:Arial, Helvetica, sans-serif
+/*La propiedad font-family sirve para cambiar el tipo de texto y para que si no carga la que pusimos
+ queremos que cargue otra tendremos que colocar coma(,) y la que queremos qque cargue si la primera 
+ no carga y podemos repetirlo muchas veces. Ademas si el nombre del tipo de letra lleva espacio
+  tendremos que collocarla dentro de comillas("") tambien si tenemos un tipo de letra en especial 
+  instalado hay ue ponerlo entre comillas*/;
+ 
+}
+p {
+    text-align:justify;
+    /*el text-aglin sirve para justificar el texto o *    */
+    letter-spacing: 2px;
+    /*letter-spacing sirve para el espaciado de entre una letra y otra */
+    line-height: 25px;
+    /*line-height sirve para el espacido de entre una linea y otra*/
+
+}
+h1 {
+    font-size: 20px;
+    font-style:italic;
+    /*El font-style sirve para poner la letra en italica o no*/
+    font-weight:normal ;
+    /*El font-weigth sirve para poner el texto normal o en negrita*/
+    color: #4281ed;
+    text-align:center;
+    text-decoration: underline;
+    /*  *   text-decoration sirve para añadirle decoración al texto como por ej:subrayado */
+    text-transform: capitalize;
+/*text-transform: sirva para que todo el texto sea mayuscúla , minuscula o que cada palabra del texto empieze en mayúscula*/
+}

@@ -1,0 +1,18 @@
+div > p {
+    font-size: 20px;
+}
+/* Para colocar que todas las etiquetas de un mismo tipo (En este caso p)
+ que esten directamente (osea sin etiquetas de por medio) dentro de otra etqueta (en este casdo div)
+ tengan un estilo especifico hay que poner la etiqueta que contiene a la otra , luego un simbolo de > y despues
+  la etiqueta que sigue (o las demas que siguen)  */
+  
+  input[type] {
+      font-size: 30px;
+  }
+  /*Lo que escribí arriba es como se hace para seleccionar a todos los input que tengan el atributo type
+  (y para colocar que tenga un valor en el atributo especifico para seleccionarlo habria que poner el = y
+  las "" y adentro de esas poner el valor especifico*/
+  input[type="email"] {
+    color: red;
+}
+

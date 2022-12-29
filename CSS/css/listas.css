@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*ul , ol {
+list-style:none ;
+padding: 0;
+}*/
+/*list-style sirve para darle estilos a las listas desordeadas y a
+ las ordenadas. El valor none hace que no tengan los puntos o numeros 
+ del principio y para que no esté el espacio que daja al hacer esto se 
+ debe poner padding:0*/
+
+/*
+Graficos:
+list-style: none | disc | circle | square
+
+Numericos:
+list-style: decimal | decimal-leading-zeo | lower-roman | upper-roman |
+			lower-latin | upper-latin
+*/
+
+
+ /*Lista desordenada*/
+
+ ul {
+     list-style: square;
+     list-style-image: url(../img/checked.png);
+ }
+ /*En una lista desordenada 
+     disc es el valor del punto relleno y que viene por defecto*/
+
+     /*circle es para un circulo sin relleno*/
+
+     /*square es  para un cuadrado relleno*/
+
+   /*y varios mas*/
+
+   /*pagina para iconos https://www.flaticon.com/search?word=check */
+
+   /* list-style-image sirve sirve para poner en vez de un punto una imagen que querramos*/
+   
+   /*lista ordenada*/
+   ol{
+       list-style: upper-latin;
+   }
+   /*decimal es el que viene por defecto en la lista ordenada y decimal-leading-zero 
+   hace lo mismo solo que añade un 0 al principio de cada numero de la lista*/
+
+
+   /*lower-roman hace que se pongan numeros romanos en vez de numeros normales en minuscula
+    y upper-roman  es para lo mismo solo que en mayusculas*/
+
+     /*lower-latin es par poner elabecedario en minuscula en vez de los numeros y el upper-latin
+      lo mismo solo que en mayuscula*/
+
+      /*menu de navegacion*/
+
+      .menu {
+          background: #4357ad;
+          width: 200px;
+          list-style: none;
+          padding: 0;
+          text-align: center;
+      }
+      .menu li {
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .menu li a {
+          display: block;
+          padding: 15px;
+          color: #fff;
+          text-decoration: none;
+      }
+      .menu li a:hover {
+          background: #4888d6;
+      }
+

@@ -1,0 +1,35 @@
+* {
+    padding:0;
+    margin:0;
+
+}
+
+.caja {
+    background: #0353a4;
+    width: 200px;
+    /*el height no se debe usar aqui o van a ocurrir errores hay que dejar que se ponga (osea que se coloque segun el ancho o width)*/
+    margin: 20px 0px;
+    /*El estilo margin sirve para poner un margen entre un elemento y otro o los lados de la pagina y se pueden poner mas de una medida
+    si se ponen dos la primera seria arriba y abajo y la segunda derecha e izquierda y si se ponen 4 la primera sería arriba la segunda abajo
+    la tercera derecha y la cuarta izquierda
+
+    margin-top: 20px; arriba 
+    margin-left: 30px; izquierda 
+    margin-right: 10px; derecha 
+    margin-bottom: 0px; abajo*/ 
+    padding: 10px; ;
+    /*con el padding se pueden colocar 2 o 4 medidas*/
+   /* padding-top: 20px; arriba 
+    padding-left: 30px; izquierda 
+    padding-right: 10px; derecha 
+    padding-bottom: 0px; abajo*/ 
+
+}
+body {
+   
+    line-height:20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.caja p{
+    background: #eee5e9;
+}

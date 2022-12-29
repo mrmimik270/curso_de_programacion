@@ -1,0 +1,35 @@
+/* Selector Universal
+
+* {
+    color: red;
+}
+
+*/
+
+/* El * en css sirve como selector universal, osea que voy a seleccionar todo 
+paradarle un estilo css por ejemplo por todo  el texto en rojo */
+
+h1 , h2{
+    color: red;
+}
+/* Para en una colocaar que mas de un tipo de etiqueta se de un estilo hay que poner una coma*/
+div p {
+    font-size: 20px;
+    color: blanchedalmond;
+}
+ /* para colocar que todas las etiquetas (como <p>) que esten centro de otra etiqueta (como <div>) tengan un estilo
+ especifico se hace colocando la etiqueta que contiena a la otra etiqueta(en este caso el div) y despues la que es
+   contenida o la siguiente etiqueta que contiene(en este caso p) y todo esto sin importar las otras etiquetas que hay de por medio
+   y no han sido escritas */
+ /* La etiqueta font-size: ; sirve para poner un tamaño  */ 
+ div
+ p a {
+    color: purple;
+}
+.grande{
+    font-size: 28px;
+}
+.rojo {
+    color: red;
+}
+/* Los id no se usan con css solo se deben usar las class */

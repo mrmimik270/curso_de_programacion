@@ -1,0 +1,18 @@
+.caja {
+    width: 200px;
+    height: 200px;
+    background:rgb(50,38,240);
+}/*Los colores se pueden colocar por ejemplo con palabras clave
+como red,blue,ect*/
+/*Tambien se pueden usar los rgv que son valores ue se pueden ver en photoshop
+solo hay que poner en el codigo rgb() y adentro del parentecis hay que colocar el valor
+rgb tambien se puede hacer con % el primero es rojo luego azul y luego verde*/
+/*el hexadecimal se encuentra igual que el rgb osea en photooshop se agrega un simbolo de # y luego el valor que te da photoshop*/
+
+/*- RGB Decimal: rgb(215, 38, 61)
+
+	- RGB Porcentual: rgb(84%, 15%, 24%)
+
+	- RGB Hexadecimal: #D7263D
+*/
+/*el rgba es lo mismo que el rgb pero tiene un valor mas que es la opacidad es un valor del 0 al 1 (obiamente se pueden usar decimales)*/
